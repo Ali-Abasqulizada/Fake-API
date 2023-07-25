@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: 'Marck Script', cursive;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 100px;
+}
+
+.card {
+    color: white;
+    background-image: url(./pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg);
+    background-size: contain;
+    width: 500px;
+    height: 238px;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    margin: 20px;
+    padding: 10px;
+    width: 400px;
+    font-size: 25px;
+    border: 2px solid darkmagenta;
+    color: white;
+    border-radius: 10px;
+    background-color: darkmagenta;
+    transition-duration: 0.5s;
+    font-weight: 600;
+
+}
+
+input::placeholder {
+    color: white;
+
+}
+
+input:focus {
+    background-color: white;
+    color: darkmagenta;
+}
+
+input:hover{
+    background-color: white;
+    color: darkmagenta;
+}
+
+input:hover::placeholder{
+    color: darkmagenta;
+}
+
+button {
+    margin: 20px;
+    font-size: 25px;
+    color: white;
+    background-color: darkmagenta;
+    border: 2px solid darkmagenta;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    transition-duration: 0.5s;
+    font-weight: 600;
+}
+button:hover{
+    color: darkmagenta;
+    background-color: white;
+}
